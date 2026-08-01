@@ -1,8 +1,24 @@
 aid: planet-fwd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/planet-fwd.png
 name: Planet FWD
-description: 'Planet FWD is a company surfaced as a portfolio company of cowboy-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Planet FWD is a decarbonization software platform that helps consumer
+  brands measure, reduce, and report their carbon emissions. It provides AI-powered
+  product life cycle assessments (LCAs), corporate greenhouse-gas inventories across
+  Scope 1, 2, and 3, and supply-chain decarbonization scenario planning for food &
+  beverage, retail, and apparel companies. Surfaced as a portfolio company of Cowboy
+  Ventures and profiled in the API Evangelist network; no public developer API surface
+  was found at enrichment time.'
 url: https://raw.githubusercontent.com/api-evangelist/planet-fwd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Climate
+- Sustainability
+- Carbon Accounting
+- Decarbonization
+- Life Cycle Assessment
+- CPG
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/planet-fwd-domain-security.yml
 - type: Website
   url: https://www.planetfwd.com
+- type: Login
+  url: https://app.planetfwd.com
+- type: SignUp
+  url: https://go.planetfwd.com/trial
+- type: Blog
+  url: https://planetfwd.com/resource/blog
+- type: HelpCenter
+  url: https://planetfwd.com/faq
+- type: TermsOfService
+  url: https://planetfwd.com/terms
+- type: PrivacyPolicy
+  url: https://planetfwd.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
